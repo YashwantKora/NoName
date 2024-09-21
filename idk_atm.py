@@ -23,8 +23,6 @@ def Age_Calculator():
         age_label.config(text=f"You Are {age} Old!" if yage == 1 else f"You Are {age} old!")
         age2_label.config(text=f"OR {yage} Years Old")
         
-
-
     label = ttk.Label(mainframe4, text="Enter your DOB")
     label.grid(row=0,column=0)
 
@@ -54,9 +52,6 @@ def Age_Calculator():
 
     age2_label = ttk.Label(mainframe4, text="")
     age2_label.grid(row=5, column=1)
-
-
-
 
 #To Do List
 
@@ -112,7 +107,7 @@ def Time_since_window():
     lbl_5 = ttk.Label(mainframe3, text="Preset Date: ", background='black', foreground='white', font=('poppins', 20))
     lbl_5.grid(row=3, column=0, pady=20,sticky="W")
 
-    lbl_6 = ttk.Label(mainframe3, text="15-09-2024", background='black', foreground='white', font=('poppins', 30))
+    lbl_6 = ttk.Label(mainframe3, text="22-09-2024", background='black', foreground='white', font=('poppins', 30))
     lbl_6.grid(row=4, column=1)
 
     lbl_7 = ttk.Label(mainframe3, text="It's Been: ", background='black', foreground='white', font=('poppins', 20))
@@ -198,7 +193,6 @@ button4.grid(row=4, column=0, pady=20)
 
 bt4_label = ttk.Label(mainframe, text="- Calculates your age!", background='black', foreground='white', font=('poppins', 15))
 bt4_label.grid(row=4, column=1)
-
 
 window.mainloop()
 
